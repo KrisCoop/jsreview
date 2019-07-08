@@ -7,12 +7,37 @@
 // Phil: Hello Alan.
 // Alan: Lynn, hand me an apple pie. And remove yourself from the theatre of conflict.
 // Lynn: What do you mean?
-// Alan: Go and stand by the yakults. The temperature inside this apple turnover is 1,000 degrees. If I squeeze it, a jet of molten Bramley apple is going to squirt out. Could go your way, could go mine. Either way, one of us is going down.
-// Alan is known for referring to the temperature of the apple turnover as 'Hotter than the sun!'. According to space.com the temperature of the sun's corona is 2,000,000 degrees C, but we will ignore the science for now.
+// Alan: Go and stand by the yakults. The temperature inside this apple turnover is 1,000 degrees. If I squeeze it, a jet of molten 
+//       Bramley apple is going to squirt out. Could go your way, could go mine. Either way, one of us is going down.
+// Alan is known for referring to the temperature of the apple turnover as 'Hotter than the sun!'. According to space.com the 
+//      temperature of the sun's corona is 2,000,000 degrees C, but we will ignore the science for now.
 //
-// Your job is simple, if (x) squared is more than 1000, return 'It's hotter than the sun!!', else, return 'Help yourself to a honeycomb Yorkie for the glovebox.'.
+// Your job is simple, if (x) squared is more than 1000, return 'It's hotter than the sun!!', else, return 'Help yourself to a 
+//  honeycomb Yorkie for the glovebox.'.
 //
 // X will be either an integer or a string. Both are valid.
 //
 // Other katas in this series:
+
+test = 50
+
+
+function apple(x){
+    
+    x = Number(x)
+
+    ans = x * x > 1000 ? `It's hotter than the sun!!` : `Help yourself to a honeycomb Yorkie for the glovebox.`
+    
+    console.log(ans)
+    return ans
+
+}
+
+console.log(apple(test))
+
+
+// Test.describe("Example tests",_=>{
+//     Test.assertEquals(apple('50'), 'It\'s hotter than the sun!!'); 
+//     Test.assertEquals(apple(4), 'Help yourself to a honeycomb Yorkie for the glovebox.'); 
+//     });
 

@@ -9,9 +9,13 @@ Counter.prototype.increase = function() {
 };
 
 Counter.prototype.getValue = function() {
-   this.value;
+   return this.value;
 };
 
 Counter.prototype.reset =  function() {
   this.value = 0;
 };
+
+/// So, I think you guys gave me the solved version of this kata, rather than the unsolved broken version. Because this tang runs nicely y'all.
+
+
